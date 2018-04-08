@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fieldset</title>
+		<style>
+		label{
+		 width:100px;
+		 display:inline-block;
+		 text-align:left;
+		}
+		
+				
+		</style>
+	</head>
+	<body>
+	<fieldset style="width:30%">
+		<legend>Application Form</legend>
+		<form action="http://google.com">
+			<label for="fullName">Full Name:</label>
+				<input id="fullName" type="text"/><br/><br/>
+			<label for="email">Email:</label>
+				<input id="email" type="email"/><br/><br/>
+			<label>Gender:</label>
+				<input type="radio" name="r1"/>Male
+				<input type="radio" name="r1"/>Female<br/><br/>
+			<label>Nationality:</label>
+				<select>
+					<option value="select">-select-</option>
+			        <option value="Indian">Indian</option>
+					<option value="American">American</option>
+                    <option value="African">African</option>
+				</select><br/><br/>
+			<label>skills:</label>
+				<input type="checkbox"/>HTML5,CSS,JavaScript
+                <input type="checkbox"/>jQuery<br/>
+				<input type="checkbox"/>Angular
+				<input type="checkbox"/>Sql Server<br/><br/>
+			<label>Post Applying:</label><input type="radio" name="r2"/>Trainee
+					<input type="radio" name="r2"/>software Engineer</br>
+					<input type="radio" name="r2"/>Team Leader
+					<input type="radio" name="r2"/>Project Manager<br/><br/>
+			<label>Upload Resume:</label>
+				<input type="file"/><br/><br/>
+			<label>Paste Your Resume:</label>
+				<textarea></textarea><br/><br/>
+			<input type="checkbox"/>Notify me the status via Email<br/>
+			<input type="radio"/>I agree to terms and conditions<br/><br/>
+			<input type="submit"/>
+			<input type="reset"/>		
+				
+		</form>
+	</fieldset>
+	</body>
+</html>
